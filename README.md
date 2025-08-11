@@ -43,20 +43,6 @@ ResMe is an advanced resume optimization tool that leverages cutting-edge Large 
 
 ---
 
-## 🗺️ Workflow Overview
-
-```mermaid
-graph TD;
-  A[User Input] --> B[Keyword Extractor];
-  B --> C[Resume Analyst];
-  C --> D[Resume Editor];
-  D --> E[Cover Letter Generator];
-  E --> F[Outputs Folder];
-  F --> G[LangSmith Dashboard];
-```
-
----
-
 ## 🖼️ LangSmith Dashboard Example
 
 Below is a screenshot of the LangSmith dashboard showing a trace of the multi-agent workflow:
