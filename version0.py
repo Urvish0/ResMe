@@ -16,6 +16,9 @@ load_dotenv()
 
 os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
 os.environ["TAVILY_API_KEY"] = os.getenv("TAVILY_API_KEY")
+os.environ["LANGSMITH_API_KEY"] = os.getenv("LANGSMITH_API_KEY")
+os.environ["LANGSMITH_TRACING"] = "true"
+os.environ["LANGSMITH_PROJECT"] = "ResMe-Project"
 
 llm = ChatGroq(model="llama-3.1-8b-instant", temperature=0)
 tavily_client = TavilyClient(api_key=os.environ["TAVILY_API_KEY"])

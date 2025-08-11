@@ -7,3 +7,4 @@ requests
 pylatexenc
 tavily-python
 ipykernel
+langsmith
