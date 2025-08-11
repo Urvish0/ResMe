@@ -1,0 +1,17 @@
+[project]
+name = "resme"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "ipykernel>=6.30.1",
+    "langchain-community>=0.3.27",
+    "langchain-groq>=0.3.7",
+    "langgraph>=0.6.4",
+    "pylatexenc>=2.10",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.4",
+    "tavily-python>=0.7.10",
+]
